@@ -1,16 +1,42 @@
 """Python functions for JavaScript Trials 1."""
+#Tuesdaylab
 
 
 def output_all_items(items):
-    pass  # TODO: replace this line with your code
+    for item in items:
+        print(item)
+
+
+# arr = ['a', 'b', 'c']
+# output_all_items(arr)
 
 
 def get_all_evens(nums):
-    pass  # TODO: replace this line with your code
+    evenNums = []
+
+    for num in nums:
+        if num % 2 == 0:
+            evenNums.append(num)
+
+    return evenNums
+
+
+# numsArr = [0, 1, 2, 3, 4, 5]
+# print(get_all_evens(numsArr))
 
 
 def get_odd_indices(items):
-    pass  # TODO: replace this line with your code
+    result = []
+
+    for ind, item in enumerate(items):
+        if ind % 2 != 0:
+            result.append(item)
+
+    return result
+
+
+# oddArr = ['no', 'yes', 'non', 'si', 'nein', 'oui']
+# print(get_odd_indices(oddArr))
 
 
 def print_as_numbered_list(items):

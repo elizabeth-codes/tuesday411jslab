@@ -11,6 +11,9 @@ function outputAllItems(items) {
   }
 }
 
+// let arr = ['a', 'b', 'c']
+// outputAllItems(arr)
+
 // Given an array of numbers, return an array of all even numbers.
 //
 // Ex.:
@@ -28,6 +31,9 @@ function getAllEvens(nums) {
   return evenNums;
 }
 
+// let numsArr = [0, 1, 2, 3, 4, 5]
+// console.log(getAllEvens(numsArr))
+
 // Given an array, return all elements at odd numbered indices.
 //
 // Ex.:
@@ -44,6 +50,9 @@ function getOddIndices(items) {
 
   return result;
 }
+
+// let oddArr = ['no', 'yes', 'non', 'si', 'nein', 'oui']
+// console.log(getOddIndices(oddArr))
 
 // Given an array, output a numbered list.
 //
