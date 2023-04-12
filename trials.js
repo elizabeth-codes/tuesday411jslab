@@ -71,6 +71,9 @@ function printAsNumberedList(items) {
   }
 }
 
+// let arr = ['dog', 'cat', 'hippo', 'bird']
+// printAsNumberedList(arr)
+
 // Return an array of numbers in a certain range.
 //
 // Ex.:
@@ -87,6 +90,8 @@ function getRange(start, stop) {
   }
   return nums;
 }
+
+// console.log(getRange(0,5))
 
 // Given a string, return a string where vowels are replaced with '*'.
 //
@@ -106,6 +111,8 @@ function censorVowels(word) {
 
   return chars.join('');
 }
+
+console.log(censorVowels('Happy Birthday'))
 
 // Given a string in snake case, return a string in upper camel case.
 //

@@ -40,15 +40,42 @@ def get_odd_indices(items):
 
 
 def print_as_numbered_list(items):
-    pass  # TODO: replace this line with your code
+    i = 1
+
+    for item in items:
+        print(f"{i}. {item}")
+        i += 1
+
+
+# arr = ['dog', 'cat', 'hippo', 'bird']
+# print_as_numbered_list(arr)
 
 
 def get_range(start, stop):
-    pass  # TODO: replace this line with your code
+    nums = []
+
+    for num in range(start, stop):
+        nums.append(num)
+
+    return nums
+
+
+# print(get_range(0, 5))
 
 
 def censor_vowels(word):
-    pass  # TODO: replace this line with your code
+    chars = []
+
+    for letter in word:
+        if letter in 'aeiou':
+            chars.append('*')
+        else:
+            chars.append(letter)
+
+    return "".join(chars)
+
+
+# print(censor_vowels('Happy Birthday'))
 
 
 def snake_to_camel(string):
