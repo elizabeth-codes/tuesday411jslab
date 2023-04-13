@@ -79,15 +79,33 @@ def censor_vowels(word):
 
 
 def snake_to_camel(string):
-    pass  # TODO: replace this line with your code
+    camelCase = []
+
+    for word in string.split('_'):
+        camelCase.append(f'{word[0].upper()}{word[1:]}')
+
+    return ''.join(camelCase)
+
+
+# print(snake_to_camel('hello_hi_yo_hola'))
 
 
 def longest_word_length(words):
-    pass  # TODO: replace this line with your code
+    longest = len(words[0])
+
+    for word in words:
+        if longest < len(word):
+            longest = len(word)
+
+    return longest
+
+
+# print(longest_word_length(['hello', 'world']))
 
 
 def truncate(string):
-    pass  # TODO: replace this line with your code
+    for char in string:
+        
 
 
 def has_balanced_parens(string):

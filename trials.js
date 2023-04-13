@@ -112,7 +112,7 @@ function censorVowels(word) {
   return chars.join('');
 }
 
-console.log(censorVowels('Happy Birthday'))
+// console.log(censorVowels('Happy Birthday'))
 
 // Given a string in snake case, return a string in upper camel case.
 //
@@ -128,6 +128,9 @@ function snakeToCamel(string) {
 
   return camelCase.join('');
 }
+
+// console.log(snakeToCamel('hello_hi_yo_hola'))
+
 
 // Return the length of the longest word in the given array of words.
 //
@@ -148,6 +151,8 @@ function longestWordLength(words) {
 
   return longest;
 }
+
+// console.log(longestWordLength(['hello', 'world']))
 
 // Truncate repeating characters into one character.
 //
